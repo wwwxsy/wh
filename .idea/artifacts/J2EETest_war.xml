@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="J2EETest:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>J2EETest</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="J2EETest-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="J2EETest:war exploded" />
+    </root>
+  </artifact>
+</component>
